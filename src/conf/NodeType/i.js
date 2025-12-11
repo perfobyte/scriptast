@@ -1,7 +1,16 @@
-export * from './Extra.js';
-export * from './Primary.js';
+export var
+    PROGRAM_NODE = 0,
+    KEYWORD_NODE = 1,
+    BLOCK_NODE = 2,
+    STRING_NODE = 3,
+    CONTENT_NODE = 4,
+    
+    WHITESPACE_NODE = 5,
+    VARIABLE_NODE = 6,
+    SIGN_NODE = 7,
 
-export {default as ExtraNodeType} from './Extra.js';
-export {default as PrimaryNodeType} from './Primary.js';
+    ONELINE_COMMENT_NODE = 8,
+    COMMENT_NODE = 9,
 
-export * as NodeType from './all.js';
+    NUMBER_NODE = 10
+;
