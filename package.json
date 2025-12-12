@@ -1,0 +1,37 @@
+{
+  "name": "@perfobyte/scriptast",
+  "version": "1.0.1",
+  "description": "A small, fast, JavaScript-based JavaScript parser",
+  "homepage": "https://github.com/perfobyte/scriptast#readme",
+  "bugs": {
+    "url": "https://github.com/perfobyte/scriptast/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perfobyte/scriptast.git"
+  },
+  "license": "MIT",
+  "author": "perfobyte",
+  "type": "module",
+  "main": "1.js",
+  "exports": {
+    ".": "./1.js"
+  },
+  "files": [
+    "src",
+    "0.js",
+    "1.js",
+    "1.js.map",
+    "README.md",
+    "package.json",
+    "LICENSE"
+  ],
+
+  "keywords": [
+    "parser",
+    "javascript",
+    "ast"
+  ],
+  
+  "scripts": {}
+}

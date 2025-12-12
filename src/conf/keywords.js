@@ -13,7 +13,7 @@ export default {
         "continue",
         "debugger",
         "function",
-    ]
+    ],
     7: [
         "default",
         "extends",
