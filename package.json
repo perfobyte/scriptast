@@ -1,8 +1,9 @@
 {
   "name": "@perfobyte/scriptast",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small, fast, JavaScript-based JavaScript parser",
   "homepage": "https://github.com/perfobyte/scriptast#readme",
+  "private":false,
   "bugs": {
     "url": "https://github.com/perfobyte/scriptast/issues"
   },

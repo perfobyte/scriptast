@@ -122,19 +122,21 @@ Nodes support:
 
 ----------------------------------------------------------------
 
-## NODE TYPES (NodeType)
+## Node Types (`NodeType`)
 
-PROGRAM_NODE = 0
-KEYWORD_NODE = 1
-BLOCK_NODE = 2
-STRING_CONTENT_NODE = 3
-WHITESPACE_NODE = 4
-VARIABLE_NODE = 5
-SIGN_NODE = 6
-ONELINE_COMMENT_NODE = 7
-COMMENT_NODE = 8
-NUMBER_NODE = 9
-UNKNOWN_NODE = 10
+| Name                 | Value | Description |
+|----------------------|-------|-------------|
+| `PROGRAM_NODE`       | `0`   | Root program node |
+| `KEYWORD_NODE`       | `1`   | JavaScript keywords (`if`, `return`, `function`, …) |
+| `BLOCK_NODE`         | `2`   | Nested block (`()`, `{}`, `[]`, strings, templates, regex) |
+| `STRING_CONTENT_NODE`| `3`   | Raw string or template text content |
+| `WHITESPACE_NODE`    | `4`   | Whitespace (spaces, tabs, newlines, unicode) |
+| `VARIABLE_NODE`      | `5`   | Identifiers / variable names |
+| `SIGN_NODE`          | `6`   | Operators and punctuation (`+`, `===`, `=>`, `{`, …) |
+| `ONELINE_COMMENT_NODE` | `7` | `//` comment content |
+| `COMMENT_NODE`       | `8`   | `/* */` comment content |
+| `NUMBER_NODE`        | `9`   | Numeric literals |
+| `UNKNOWN_NODE`       | `10`  | Unrecognized single-character token |
 
 ----------------------------------------------------------------
 
